@@ -18,7 +18,7 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://us-west-2.console.aws.amazon.com/dynamodbv2/home?region=us-west-2#tables</string>
+						<string>https://%Variable%region%.console.aws.amazon.com/dynamodbv2/home?region=%Variable%region%#tables</string>
 						<key>Variable</key>
 						<string>current_url</string>
 					</dict>
@@ -40,7 +40,7 @@
 				<key>CreationDate</key>
 				<real>743345252.14754701</real>
 				<key>ModificationDate</key>
-				<real>743345347.52560794</real>
+				<real>743393097.60247302</real>
 				<key>Name</key>
 				<string>ddb-tables</string>
 				<key>Triggers</key>
@@ -72,7 +72,7 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#logsV2:logs-insights</string>
+						<string>https://%Variable%region%.console.aws.amazon.com/cloudwatch/home?region=%Variable%region%#logsV2:logs-insights</string>
 						<key>Variable</key>
 						<string>current_url</string>
 					</dict>
@@ -94,7 +94,7 @@
 				<key>CreationDate</key>
 				<real>742448981.78793597</real>
 				<key>ModificationDate</key>
-				<real>743345239.08267403</real>
+				<real>743393117.80334997</real>
 				<key>Name</key>
 				<string>log-insights</string>
 				<key>Triggers</key>
@@ -126,7 +126,7 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://us-west-2.console.aws.amazon.com/lambda/home?region=us-west-2#/functions</string>
+						<string>https://%Variable%region%.console.aws.amazon.com/lambda/home?region=%Variable%region%#/functions</string>
 						<key>Variable</key>
 						<string>current_url</string>
 					</dict>
@@ -148,7 +148,7 @@
 				<key>CreationDate</key>
 				<real>743345368.57506001</real>
 				<key>ModificationDate</key>
-				<real>743345374.234887</real>
+				<real>743393082.81852901</real>
 				<key>Name</key>
 				<string>lambda-functions</string>
 				<key>Triggers</key>
@@ -180,7 +180,7 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#logsV2:log-groups</string>
+						<string>https://%Variable%region%.console.aws.amazon.com/cloudwatch/home?region=%Variable%region%#logsV2:log-groups</string>
 						<key>Variable</key>
 						<string>current_url</string>
 					</dict>
@@ -202,7 +202,7 @@
 				<key>CreationDate</key>
 				<real>741935210.13205194</real>
 				<key>ModificationDate</key>
-				<real>743345244.27598202</real>
+				<real>743393108.48589396</real>
 				<key>Name</key>
 				<string>log-groups</string>
 				<key>Triggers</key>

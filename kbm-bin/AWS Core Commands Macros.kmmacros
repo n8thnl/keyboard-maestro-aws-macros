@@ -14,6 +14,46 @@
 				<array>
 					<dict>
 						<key>ActionUID</key>
+						<integer>13583525</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>us-west-2</string>
+						<key>Variable</key>
+						<string>region</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>743139863.76457703</real>
+				<key>ModificationDate</key>
+				<real>743393229.46343505</real>
+				<key>Name</key>
+				<string>set-region-preset-2</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>23AA7F31-C967-4826-8FCC-7DCE121EC56E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>AWS Core Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>EA116F84-109B-446A-9740-0A04F9FE7D98</string>
+		<key>UID</key>
+		<string>07EF8615-DC13-455E-9744-5869EEC3C6A9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>742448368.04189599</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
 						<integer>13583122</integer>
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
@@ -33,6 +73,46 @@
 				<array/>
 				<key>UID</key>
 				<string>221006CA-BAB8-4DE7-9771-A25BD6537936</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>AWS Core Commands</string>
+		<key>ToggleMacroUID</key>
+		<string>EA116F84-109B-446A-9740-0A04F9FE7D98</string>
+		<key>UID</key>
+		<string>07EF8615-DC13-455E-9744-5869EEC3C6A9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>742448368.04189599</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>13583524</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>us-east-1</string>
+						<key>Variable</key>
+						<string>region</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>743139863.76457703</real>
+				<key>ModificationDate</key>
+				<real>743393222.62330699</real>
+				<key>Name</key>
+				<string>set-region-preset-1</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>3A63A969-D6D2-4A12-8174-B6FBCD5E12C8</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -315,7 +395,7 @@
 									<key>VariableConditionType</key>
 									<string>Is</string>
 									<key>VariableValue</key>
-									<string>value</string>
+									<string>Session Expired</string>
 								</dict>
 							</array>
 							<key>ConditionListMatch</key>
@@ -349,7 +429,7 @@
 				<key>CreationDate</key>
 				<real>741935210.13205194</real>
 				<key>ModificationDate</key>
-				<real>743201192.43667698</real>
+				<real>743393422.86867094</real>
 				<key>Name</key>
 				<string>open-aws-url-in-chrome-window</string>
 				<key>Triggers</key>
@@ -523,7 +603,7 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>975050112825</string>
+						<string>&lt;YOUR_ACCOUNT_ID_HERE&gt;</string>
 						<key>Variable</key>
 						<string>account_id</string>
 					</dict>
@@ -533,7 +613,7 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>AdministratorAccess</string>
+						<string>&lt;YOUR_ROLE_HERE&gt;</string>
 						<key>Variable</key>
 						<string>account_role</string>
 					</dict>
@@ -543,7 +623,8 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://d-9267482842.awsapps.com/start/#/console?account_id=${ACCOUNT}&amp;role_name=${ROLE}</string>
+						<string>&lt;YOUR_LOGIN_URL_HERE_USING_ACCOUNT_AND_ROLE&gt;
+E.G. https://abc-123456.awsapps.com/start/#/console?account_id=${ACCOUNT}&amp;role_name=${ROLE}</string>
 						<key>Variable</key>
 						<string>login_url</string>
 					</dict>
@@ -553,7 +634,8 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>/Users/nathaniel/Library/Application Support/Google/Chrome/Default</string>
+						<string>&lt;PATH_TO_DEFAULT_CHROME_PROFILE_DIRECTORY&gt;
+(hint: commonly called ‘Default’)</string>
 						<key>Variable</key>
 						<string>chrome_default_profile_folder_absolute_path</string>
 					</dict>
@@ -575,7 +657,7 @@
 				<key>CreationDate</key>
 				<real>742517881.72200406</real>
 				<key>ModificationDate</key>
-				<real>743200781.05546904</real>
+				<real>743393749.56348896</real>
 				<key>Name</key>
 				<string>setup-preset</string>
 				<key>Triggers</key>
