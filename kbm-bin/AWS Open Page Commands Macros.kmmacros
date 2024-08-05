@@ -14,23 +14,23 @@
 				<array>
 					<dict>
 						<key>ActionUID</key>
-						<integer>13583130</integer>
+						<integer>13583061</integer>
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://%Variable%region%.console.aws.amazon.com/dynamodbv2/home?region=%Variable%region%#tables</string>
+						<string>https://%Variable%region%.console.aws.amazon.com/cloudwatch/home?region=%Variable%region%#logsV2:log-groups</string>
 						<key>Variable</key>
 						<string>current_url</string>
 					</dict>
 					<dict>
 						<key>ActionUID</key>
-						<integer>13583131</integer>
+						<integer>13583064</integer>
 						<key>Asynchronously</key>
 						<false/>
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
-						<string>8DCBB5FF-FE35-4BAE-82FD-5116FAE4A8FB</string>
+						<string>39081081-A45F-4CF0-BD1E-076B949FE0B4</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>UseParameter</key>
@@ -38,15 +38,15 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>743345252.14754701</real>
+				<real>741935210.13205194</real>
 				<key>ModificationDate</key>
-				<real>743393097.60247302</real>
+				<real>744484752.67316997</real>
 				<key>Name</key>
-				<string>ddb-tables</string>
+				<string>log-groups</string>
 				<key>Triggers</key>
 				<array/>
 				<key>UID</key>
-				<string>34432D58-5498-406F-B893-32273EC2C06E</string>
+				<string>82D11781-B9E5-48D0-876B-F5A6FB7AD32F</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -84,7 +84,7 @@
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
-						<string>8DCBB5FF-FE35-4BAE-82FD-5116FAE4A8FB</string>
+						<string>39081081-A45F-4CF0-BD1E-076B949FE0B4</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>UseParameter</key>
@@ -94,7 +94,7 @@
 				<key>CreationDate</key>
 				<real>742448981.78793597</real>
 				<key>ModificationDate</key>
-				<real>743393117.80334997</real>
+				<real>744484759.46011698</real>
 				<key>Name</key>
 				<string>log-insights</string>
 				<key>Triggers</key>
@@ -138,7 +138,7 @@
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
-						<string>8DCBB5FF-FE35-4BAE-82FD-5116FAE4A8FB</string>
+						<string>39081081-A45F-4CF0-BD1E-076B949FE0B4</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>UseParameter</key>
@@ -148,7 +148,7 @@
 				<key>CreationDate</key>
 				<real>743345368.57506001</real>
 				<key>ModificationDate</key>
-				<real>743393082.81852901</real>
+				<real>744484746.85150898</real>
 				<key>Name</key>
 				<string>lambda-functions</string>
 				<key>Triggers</key>
@@ -176,23 +176,23 @@
 				<array>
 					<dict>
 						<key>ActionUID</key>
-						<integer>13583061</integer>
+						<integer>13583130</integer>
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
-						<string>https://%Variable%region%.console.aws.amazon.com/cloudwatch/home?region=%Variable%region%#logsV2:log-groups</string>
+						<string>https://%Variable%region%.console.aws.amazon.com/dynamodbv2/home?region=%Variable%region%#tables</string>
 						<key>Variable</key>
 						<string>current_url</string>
 					</dict>
 					<dict>
 						<key>ActionUID</key>
-						<integer>13583064</integer>
+						<integer>13583131</integer>
 						<key>Asynchronously</key>
 						<false/>
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
-						<string>8DCBB5FF-FE35-4BAE-82FD-5116FAE4A8FB</string>
+						<string>39081081-A45F-4CF0-BD1E-076B949FE0B4</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>UseParameter</key>
@@ -200,15 +200,15 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>741935210.13205194</real>
+				<real>743345252.14754701</real>
 				<key>ModificationDate</key>
-				<real>743393108.48589396</real>
+				<real>744484657.90770102</real>
 				<key>Name</key>
-				<string>log-groups</string>
+				<string>ddb-tables</string>
 				<key>Triggers</key>
 				<array/>
 				<key>UID</key>
-				<string>82D11781-B9E5-48D0-876B-F5A6FB7AD32F</string>
+				<string>34432D58-5498-406F-B893-32273EC2C06E</string>
 			</dict>
 		</array>
 		<key>Name</key>
